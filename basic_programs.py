@@ -3,7 +3,7 @@
         # 0,1,1,2,3,5,8,13,21,34,55....
 # Mathematically, it can be defined with the following relations:
     # F<n> = F<n-1> + F<n-2>
-# There are 3 general methods to write this program:
+# Below explores two of many different methods to approach this:
 
 # 1.) Recursion method
 def fibonacci_recursion(num):
